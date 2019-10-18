@@ -1,0 +1,18 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>MR ROBOT</h1>
+
+	<p>Bienvenido a <em>MR.ROBOT</em>, una página de HARDWARE y COMPUTADORAS</p>
+
+<h2>Nuestros equipos</h2>
+<p>¡Un espectacular equipo última generación!</p>
+
+<div>
+{% load static %}
+<img src="{% static 'images/pc1galeria.jpg' %}"
+style="width:555px;height:540px;"/>
+</div>
+
+
+{% endblock %}
